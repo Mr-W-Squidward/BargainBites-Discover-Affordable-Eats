@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4a261; /* F4A261 */
+  background-size: cover;
+}
+
+header {
+  background-color: #e76f51; /* E76F51 */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff; /* White */
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fffffe; /* E9C46A */
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #2a9d8f; /* 2A9D8F */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #264653; /* 264653 */
+}
+
+#recipeList {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e76f51;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}

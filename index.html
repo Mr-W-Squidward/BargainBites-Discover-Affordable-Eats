@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Recipe Finder</div>
+    <div class="search-bar">
+      <input type="text" id="ingredients" placeholder="Enter ingredients (e.g., eggs, milk)">
+      <button id="searchButton">Search</button>
+    </div>
+    <button id="randomButton">Random Recipe</button>
+  </header>
+  <div id="recipeList"></div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
