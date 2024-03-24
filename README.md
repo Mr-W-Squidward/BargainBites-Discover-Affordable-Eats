@@ -1,0 +1,1 @@
+This is a recipe grabber utilizing Spoonacular API which takes household ingredients and outputs recipes as well a how to make them! Super useful for people who couldn't go shopping this week and need a quick meal!
